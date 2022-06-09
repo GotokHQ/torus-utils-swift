@@ -1,7 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name         = "Torus-utils"
   spec.version      = "1.3.0"
-  spec.platform = :ios, "11.0"
+  spec.ios.deployment_target = '11.0'
+  spec.osx.deployment_target = '10.12'
   spec.summary      = "Retrieve user shares"
   spec.homepage     = "https://github.com/torusresearch/torus-utils-swift"
   spec.license      = { :type => 'BSD', :file => 'License.md' }
