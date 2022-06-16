@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'CryptoSwift', '~> 1.4.1'
   spec.dependency 'secp256k1.swift', '~> 0.1.4'
   spec.dependency 'PromiseKit/Foundation', '~> 6.0'
+  
 end
